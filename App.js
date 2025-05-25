@@ -1,9 +1,9 @@
-import { registerRootComponent } from 'expo';
-import { ExpoRoot } from 'expo-router';
+// src/App.js
+import React from 'react';
+import AppNavigator from './navigation/AppNavigator';
 
-// Must be exported or Fast Refresh won't update the context
-export function App() {
-  return <ExpoRoot context={require.context('./app')} />;
-}
+const App = () => {
+  return <AppNavigator />;
+};
 
-registerRootComponent(App);
+export default App;
