@@ -1,34 +1,33 @@
 {
   "expo": {
-    "name": "ui-test",
-    "slug": "snack-dc6937b1-c565-4589-9546-750b2757cbd1",
+    "name": "MyReactNativeApp",
+    "slug": "my-react-native-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
-      "package": "com.sajithmym.snackdc6937b1c56545899546750b2757cbd1"
+        "backgroundColor": "#FFFFFF"
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "extra": {
-      "eas": {
-        "projectId": "d780f238-06b3-4c7b-8674-7e1297a46ef3"
-      }
-    }
+    "description": "A fully functional React Native application with Firebase authentication."
   }
 }

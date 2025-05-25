@@ -1,11 +1,71 @@
-# Sample Snack app
+# My React Native App
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+This is a fully functional React Native application that implements Firebase authentication. The app includes several screens: Login, Sign Up, Home, and Settings, designed with a clean and modern UI.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+## Features
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+- **User Authentication**: Secure login and signup using Firebase.
+- **Role-Based Authorization**: Different user roles with specific permissions.
+- **Responsive Design**: The app is designed to work on various screen sizes and devices.
+- **Dark Mode and Light Mode**: Users can toggle between dark and light themes.
+- **Smooth Transitions and Animations**: Enhanced user experience with smooth navigation.
+- **Profile Management**: Users can view and edit their profile details.
+- **Settings Screen**: Options for logging out, switching themes, and selecting language preferences.
+- **Route Protection**: Ensures that only authenticated users can access certain routes.
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+## Project Structure
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+```
+my-react-native-app
+├── src
+│   ├── components
+│   ├── constants
+│   ├── navigation
+│   ├── screens
+│   ├── services
+│   ├── store
+│   ├── utils
+│   ├── App.tsx
+│   └── theme
+├── app.json
+├── babel.config.js
+└── package.json
+```
+
+## Installation
+
+1. Clone the repository:
+   ```
+   git clone <repository-url>
+   cd my-react-native-app
+   ```
+
+2. Install dependencies:
+   ```
+   npm install
+   ```
+
+3. Set up Firebase:
+   - Create a Firebase project and add your app.
+   - Update the `src/services/firebaseConfig.ts` file with your Firebase configuration.
+
+4. Run the app:
+   ```
+   npm start
+   ```
+
+## Usage
+
+- **Login**: Users can log in using their credentials.
+- **Sign Up**: New users can create an account.
+- **Home**: The main screen with navigation options.
+- **Profile**: View and edit user details.
+- **Settings**: Manage app settings, including logout and theme preferences.
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request for any enhancements or bug fixes.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
