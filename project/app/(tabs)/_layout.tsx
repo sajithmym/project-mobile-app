@@ -1,11 +1,10 @@
-import React from 'react';
 import { Tabs } from 'expo-router';
-import { useTheme } from '@/context/ThemeContext';
+import { useTheme } from '../../context/ThemeContext';
 import { Chrome as Home, User, Settings } from 'lucide-react-native';
 import { View, StyleSheet, Pressable } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import Animated, { useAnimatedStyle, withTiming } from 'react-native-reanimated';
-import { borderRadius, spacing } from '@/constants';
+import { borderRadius, spacing } from '../../constants';
 
 function TabBarIcon({ name, color }: { name: string; color: string }) {
   const size = 24;

@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { StyleSheet, Text, View, Switch, TouchableOpacity, ScrollView, Alert } from 'react-native';
-import { useAuth } from '@/context/AuthContext';
-import { useTheme } from '@/context/ThemeContext';
-import Screen from '@/components/layout/Screen';
-import Button from '@/components/ui/Button';
-import { typography, spacing, strings, shadows, borderRadius, settings as appSettings } from '@/constants';
+import { useAuth } from '../../context/AuthContext';
+import { useTheme } from '../../context/ThemeContext';
+import Screen from '../../components/layout/Screen';
+import Button from '../../components/ui/Button';
+import { typography, spacing, strings, shadows, borderRadius, settings as appSettings } from '../../constants';
 import { Moon, Sun, Globe, Bell, LogOut, Info, ChevronRight } from 'lucide-react-native';
 import Animated, { FadeInDown, FadeInUp, SlideInRight } from 'react-native-reanimated';
 

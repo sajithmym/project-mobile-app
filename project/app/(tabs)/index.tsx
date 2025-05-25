@@ -1,9 +1,8 @@
-import React from 'react';
 import { StyleSheet, Text, View, TouchableOpacity, Image, ScrollView } from 'react-native';
-import { useAuth } from '@/context/AuthContext';
-import { useTheme } from '@/context/ThemeContext';
-import Screen from '@/components/layout/Screen';
-import { typography, spacing, strings, shadows, borderRadius } from '@/constants';
+import { useAuth } from '../../context/AuthContext';
+import { useTheme } from '../../context/ThemeContext';
+import Screen from '../../components/layout/Screen';
+import { typography, spacing, strings, shadows, borderRadius } from '../../constants';
 import { Bell, Search, MessageSquare, CalendarClock, FileText, Settings, Plus } from 'lucide-react-native';
 import Animated, { FadeInDown, FadeInUp } from 'react-native-reanimated';
 

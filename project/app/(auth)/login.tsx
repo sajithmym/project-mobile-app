@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { StyleSheet, Text, View, TouchableOpacity, Image, KeyboardAvoidingView, Platform } from 'react-native';
 import { Link } from 'expo-router';
-import { useAuth } from '@/context/AuthContext';
-import { useTheme } from '@/context/ThemeContext';
-import TextInput from '@/components/ui/TextInput';
-import Button from '@/components/ui/Button';
-import Screen from '@/components/layout/Screen';
-import { typography, spacing, strings, settings } from '@/constants';
+import { useAuth } from '../../context/AuthContext';
+import { useTheme } from '../../context/ThemeContext';
+import TextInput from '../../components/ui/TextInput';
+import Button from '../../components/ui/Button';
+import Screen from '../../components/layout/Screen';
+import { typography, spacing, strings, settings } from '../../constants';
 import { Lock, Mail } from 'lucide-react-native';
 import Animated, { FadeInDown, FadeInUp } from 'react-native-reanimated';
 

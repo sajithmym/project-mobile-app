@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 import { StyleSheet, Text, View, TouchableOpacity, KeyboardAvoidingView, Platform, Alert } from 'react-native';
 import { Link, router } from 'expo-router';
-import { useTheme } from '@/context/ThemeContext';
-import TextInput from '@/components/ui/TextInput';
-import Button from '@/components/ui/Button';
-import Screen from '@/components/layout/Screen';
-import { typography, spacing, strings, settings } from '@/constants';
+import { useTheme } from '../../context/ThemeContext';
+import TextInput from '../../components/ui/TextInput';
+import Button from '../../components/ui/Button';
+import Screen from '../../components/layout/Screen';
+import { typography, spacing, strings, settings } from '../../constants';
 import { Mail, ArrowLeft } from 'lucide-react-native';
 import Animated, { FadeInDown, FadeInUp } from 'react-native-reanimated';
-import { resetPassword } from '@/lib/firebase';
+import { resetPassword } from '../../lib/firebase';
 
 export default function ForgotPasswordScreen() {
   const { colors } = useTheme();

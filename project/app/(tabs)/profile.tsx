@@ -1,10 +1,10 @@
 import React, { useState, useRef } from 'react';
 import { StyleSheet, Text, View, TouchableOpacity, Image, ScrollView, Alert, TextInput } from 'react-native';
-import { useAuth } from '@/context/AuthContext';
-import { useTheme } from '@/context/ThemeContext';
-import Screen from '@/components/layout/Screen';
-import Button from '@/components/ui/Button';
-import { typography, spacing, strings, shadows, borderRadius } from '@/constants';
+import { useAuth } from '../../context/AuthContext';
+import { useTheme } from '../../context/ThemeContext';
+import Screen from '../../components/layout/Screen';
+import Button from '../../components/ui/Button';
+import { typography, spacing, strings, shadows, borderRadius } from '../../constants';
 import { Camera, CreditCard as Edit, Calendar, Bell, CircleCheck as CheckCircle } from 'lucide-react-native';
 import Animated, { FadeIn, FadeInDown, FadeInUp, useAnimatedStyle, useSharedValue, withSpring, withTiming } from 'react-native-reanimated';
 
